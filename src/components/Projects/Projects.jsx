@@ -3,8 +3,8 @@ import './Projects.css';
 import familyThreadThumbnail from '../../assets/projects/familyThread/thumbnail.png';
 import placeholderThumbnail from '../../assets/projects/placeholderthumbnail.jpg';
 import closeSymbol from '../../assets/closeSymbol.svg'
-import projectPage from '../projectPage.jsx'
-import ProjectPage from "../projectPage.jsx";
+import projectPage from '../ProjectPages/projectPage.jsx'
+import ProjectPage from "../ProjectPages/projectPage.jsx";
 
 const projects = [
     {

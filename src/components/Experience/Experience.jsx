@@ -4,7 +4,9 @@ import logo from '../../assets/github.svg'
 
 const Experience = () => {
     return (
-        <div className="timeline">
+        <div className='experience'>
+            <h1>Experience</h1>
+            <div className="timeline">
 
             <div className="container left-container">
                 <img src={logo}/>
@@ -138,6 +140,7 @@ const Experience = () => {
                 </div>
             </div>
 
+        </div>
         </div>
     );
 };
