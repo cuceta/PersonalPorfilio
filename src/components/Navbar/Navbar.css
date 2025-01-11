@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin: 20px 70px;
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.menu-element:hover{
+    color: #BC141D;
+}
+
+/*.nav-connect{*/
+/*    padding: 15px 30px;*/
+/*    border-radius: 50px;*/
+/*    background: pink;*/
+/*    font-size: 20px;*/
+/*    cursor: pointer;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*.nav-connect:hover{*/
+/*    transform: scale3d(1.05, 1.05, 1.05);*/
+/*}*/
+
