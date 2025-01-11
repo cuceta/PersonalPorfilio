@@ -1,6 +1,5 @@
 import 'react';
 import './Navbar.css'
-// import logo from "../../assets/logo.png"
 
 const Navbar = () => {
     return (
@@ -8,9 +7,9 @@ const Navbar = () => {
             {/*<img src={logo} alt={"Logo"}/>*/}
             <ul className={"nav-menu"}>
                 <li className={"menu-element"}>About Me</li>
-                <li className={"menu-element"}>CS Projects</li>
-                <li className={"menu-element"}>Design Projects</li>
+                <li className={"menu-element"}>Projects</li>
                 <li className={"menu-element"}>Education</li>
+                <li className={"menu-element"}>Experience</li>
                 <li className={"menu-element"}>Skills</li>
                 <li className={"menu-element"}>Contact Me</li>
             </ul>
