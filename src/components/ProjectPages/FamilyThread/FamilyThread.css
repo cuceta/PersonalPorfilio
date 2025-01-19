@@ -1,0 +1,10 @@
+.family-thread {
+    justify-items: left;
+    align-items: start;
+}
+
+.family-thread ul {
+    justify-items: left;
+
+    margin-left: 15px;
+}
