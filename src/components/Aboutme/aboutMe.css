@@ -115,4 +115,5 @@ body{
 
 .resume-button:hover{
     transform: scale(1.2);
+    color: #D28C93;
 }
