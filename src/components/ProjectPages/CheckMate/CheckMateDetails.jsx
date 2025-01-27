@@ -6,15 +6,23 @@ const CheckMateDetails = () => {
         <div className="check-mate">
             <h3>Project Goal:</h3>
             <p>
-                Develop a fully functional web application with the capability to allow users to create, save
-                and share their family trees as an introductory software engineering project.
+                Develop a fully functional to-do list web application where users can organize their tasks .
             </p>
             <h3>Involvement:</h3>
             <p>
                 <ul>
                     <li>Front-End Development</li>
-                    <li>UX/UI Design</li>
-                    <li>Communication with stakeholders and potential clients</li>
+                </ul>
+            </p>
+            <h3>Key Functionality:</h3>
+            <p>
+                <ul>
+                    <li>Create separate to-do list for different projects</li>
+                    <li>Deleting tasks and lists</li>
+                    <li>Editing tasks and lists</li>
+                    <li>Recovering tasks and lists</li>
+                    <li>Setting priority to tasks</li>
+                    <li>Sorting tasks on lists by name, priority, due dates</li>
                 </ul>
             </p>
         </div>

@@ -21,7 +21,7 @@ const projects = [
     {
         id: 2,
         title: 'CheckMate To-Do List Web Application',
-        description: 'My personal portfolio to showcase my work.',
+        description: 'Web based to-do list application.',
         details: <CheckMate/>,
         thumbnail: placeholderThumbnail,
     },
