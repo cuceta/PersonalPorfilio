@@ -5,7 +5,7 @@ const ContactMe = () => {
     return (
         <section>
             <h1>Contact Me!</h1>
-            <form action="" method='post'>
+            <form action="https://formspree.io/f/xdkaedng" method='post'>
                 <div className='content-wrapper'>
                     <div className='name-email-content'>
                         <div className='content'>
