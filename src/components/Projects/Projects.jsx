@@ -50,13 +50,13 @@ const projects = [
         details: <PerformanceMeasurements/>,
         thumbnail: performanceMeasurementsThumbnail,
     },
-    {
-        id: 6,
-        title: 'Yelp Recommendation',
-        description: 'A mock e-commerce platform for online shopping.',
-        details: <YelpRecommendation/>,
-        thumbnail: placeholderThumbnail,
-    },
+    // {
+    //     id: 6,
+    //     title: 'Yelp Recommendation',
+    //     description: 'A mock e-commerce platform for online shopping.',
+    //     details: <YelpRecommendation/>,
+    //     thumbnail: placeholderThumbnail,
+    // },
 ];
 
 const Projects = () => {
