@@ -148,3 +148,9 @@ button:hover {
     background-color: white;
     transform: scale(120%);
 }
+
+.project-card img {
+    border: #888 1px solid;
+    height: 200px;
+    width: 350px;
+}

@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import familyThreadThumbnail from '../../assets/projects/familyThread/thumbnail.png';
+import checkMateThumbnail from '../../assets/projects/checkMate/thumbnail.png'
+import heatPropagationSimulatorThumbnail from '../../assets/projects/HeatPropagationSimulator/Thumbnail.png'
+import facilityLayoutThumbnail from '../../assets/projects/FacilityLayout/FacilityLayoutThumbnail.png'
+import performanceMeasurementsThumbnail from '../../assets/projects/PerformanceMeasurements/PerformanceMeasurements.png'
 import placeholderThumbnail from '../../assets/projects/placeholderthumbnail.jpg';
 import closeSymbol from '../../assets/closeSymbol.svg'
 import FamilyThread from '../ProjectPages/FamilyThread/FamilyThread.jsx'
@@ -23,28 +27,28 @@ const projects = [
         title: 'CheckMate To-Do List Web Application',
         description: 'Web based to-do list application.',
         details: <CheckMate/>,
-        thumbnail: placeholderThumbnail,
+        thumbnail: checkMateThumbnail,
     },
     {
         id: 3,
         title: 'Heat Propagation Simulator',
         description: 'A mock e-commerce platform for online shopping.',
         details: <HeatPropagation/>,
-        thumbnail: placeholderThumbnail,
+        thumbnail: heatPropagationSimulatorThumbnail,
     },
     {
         id: 4,
         title: 'Optimal Facility Layout Generator',
         description: 'A mock e-commerce platform for online shopping.',
         details: <FacilityLayout/>,
-        thumbnail: placeholderThumbnail,
+        thumbnail: facilityLayoutThumbnail,
     },
     {
         id: 5,
         title: 'Performance Measurement Benchmark',
         description: 'A mock e-commerce platform for online shopping.',
         details: <PerformanceMeasurements/>,
-        thumbnail: placeholderThumbnail,
+        thumbnail: performanceMeasurementsThumbnail,
     },
     {
         id: 6,
