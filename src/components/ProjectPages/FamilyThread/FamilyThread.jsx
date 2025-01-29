@@ -9,6 +9,7 @@ const FamilyThread = () => {
                 Develop a fully functional web application with the capability to allow users to create, save
                 and share their family trees as an introductory software engineering project.
             </p>
+
             <h3>Involvement:</h3>
             <p>
                 <ul>
@@ -19,6 +20,9 @@ const FamilyThread = () => {
                     <li>UML diagram development and maintenance</li>
                 </ul>
             </p>
+
+            <h3>Source Code:</h3>
+            <a href='https://github.com/FamilyThread/Family_Thread'>Github repository</a>
         </div>
     );
 };

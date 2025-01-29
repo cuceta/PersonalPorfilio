@@ -4,6 +4,10 @@
     align-items: start;
 }
 
+.project-detail a{
+    color: #333333;
+    font-family: "Jacques Francois", serif
+}
 .project-detail ul {
     justify-items: left;
     margin-left: 15px;

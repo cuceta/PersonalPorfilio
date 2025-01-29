@@ -23,6 +23,9 @@ const FacilityLayout = () => {
                 layouts and find the total affinity of the layout. Then have all the threads communicate and compare
                 affinity values and display they layout with the highest affinity.
             </p>
+
+            <h3>Source Code:</h3>
+            <a href='https://github.com/cuceta/CSC375P1-FacilitiesLayout'>Github repository</a>
         </div>
     );
 };

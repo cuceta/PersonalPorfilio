@@ -12,7 +12,6 @@ import CheckMate from '../ProjectPages/CheckMate/CheckMateDetails.jsx'
 import FacilityLayout from '../ProjectPages/FacilityLayout/FacilityLayout.jsx'
 import HeatPropagation from '../ProjectPages/HeatPropagation/HeatPropagation.jsx'
 import PerformanceMeasurements from '../ProjectPages/PerformanceMeasurements/PerformanceMeasurements.jsx'
-import YelpRecommendation from '../ProjectPages/YelpRecommendation/YelpRecommendation.jsx'
 
 const projects = [
     {

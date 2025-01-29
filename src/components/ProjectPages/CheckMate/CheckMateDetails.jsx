@@ -25,6 +25,10 @@ const CheckMateDetails = () => {
                     <li>Sorting tasks on lists by name, priority, due dates</li>
                 </ul>
             </p>
+
+            <h3>Source Code:</h3>
+            <a href='https://github.com/Paul-Austin-Oswego-CSC480-HCI521/OZ-CSC-480-HCI-521-Fall-2024'>Github repository</a>
+
         </div>
     );
 };
