@@ -6,7 +6,7 @@ import VerizonAccentureLogo from '../../assets/Experience/VerizonAccentureLogo.p
 
 const Experience = () => {
     return (
-        <div className='experience'>
+        <section className='experience' id='experience'>
             <h1>Experience</h1>
             <div className="timeline">
 
@@ -116,7 +116,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

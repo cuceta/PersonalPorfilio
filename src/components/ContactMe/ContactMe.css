@@ -65,3 +65,11 @@ input[type='submit']:hover {
 .content {
     margin-bottom: 30px;
 }
+
+.message-content{
+    margin-bottom: 100px;
+}
+
+.name-email-content {
+    margin-top: -100px;
+}

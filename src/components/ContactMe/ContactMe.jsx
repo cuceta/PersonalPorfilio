@@ -2,8 +2,9 @@ import React from 'react';
 import './ContactMe.css'
 
 const ContactMe = () => {
+
     return (
-        <section>
+        <section id='contact'>
             <h1>Contact Me!</h1>
             <form action="https://formspree.io/f/xdkaedng" method='post'>
                 <div className='content-wrapper'>
@@ -25,13 +26,12 @@ const ContactMe = () => {
                         <input className="hover-buttom" type='submit' value='submit'/>
                     </div>
 
-                    <div>
-                        <div className='message-content'>
-                            <label htmlFor="Message" hidden>
-                                Message
-                            </label>
-                            <textarea name="Message" id='Message' placeholder="Message" required></textarea>
-                        </div>
+
+                    <div className='message-content'>
+                        <label htmlFor="Message" hidden>
+                            Message
+                        </label>
+                        <textarea name="Message" id='Message' placeholder="Message" required></textarea>
                     </div>
                 </div>
             </form>

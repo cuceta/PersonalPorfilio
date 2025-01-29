@@ -75,7 +75,7 @@ const Projects = () => {
     };
 
     return (
-        <div className="projects">
+        <section className="projects" id='projects'>
             <h1>My Projects</h1>
             <div className="project-grid">
                 {projects.map((project) => (
@@ -106,7 +106,7 @@ const Projects = () => {
                     </div>
                 )}
             </div>
-        </div>
+        </section>
     );
 };
 

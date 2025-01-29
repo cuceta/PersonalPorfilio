@@ -9,7 +9,7 @@ import CV from '../../assets/CrislennyUcetaResume.pdf';
 
 const AboutMe = () => {
     return (
-        <div className="about-me">
+        <section className="about-me" id='about'>
             <div className="content-wrapper">
                 <div className="profile-container">
                     <div className="oval-background"></div>
@@ -58,7 +58,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

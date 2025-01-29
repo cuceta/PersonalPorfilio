@@ -1,37 +1,40 @@
 .navbar{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: end;
-    margin: 20px 70px;
+    padding-right: 100px;
     font-family: "Italiana", serif;
     font-weight: 400;
     font-style: normal;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 100;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.nav-menu{
+.nav {
     display: flex;
-    align-items: center;
-
+    justify-content: right;
     list-style: none;
-    gap: 60px;
-    font-size: 20px;
-    color: white;
+    margin: 0;
+    margin-right: 5%;
 }
 
-.menu-element:hover{
+a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+a:hover,
+a:focus{
     color: #BC141D;
 }
 
-/*.nav-connect{*/
-/*    padding: 15px 30px;*/
-/*    border-radius: 50px;*/
-/*    background: pink;*/
-/*    font-size: 20px;*/
-/*    cursor: pointer;*/
-/*    transition: 0.5s;*/
-/*}*/
-
-/*.nav-connect:hover{*/
-/*    transform: scale3d(1.05, 1.05, 1.05);*/
-/*}*/
-
+html{
+    scroll-behavior: smooth;
+}
