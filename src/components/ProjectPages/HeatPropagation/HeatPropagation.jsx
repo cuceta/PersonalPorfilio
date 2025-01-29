@@ -1,9 +1,9 @@
 import React from 'react';
+import '../projectPagesStyles.css'
 
 const HeatPropagation = () => {
     return (
-        <div>
-
+        <div className='project-detail'>
         </div>
     );
 };

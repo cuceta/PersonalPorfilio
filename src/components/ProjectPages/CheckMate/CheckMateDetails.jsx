@@ -1,9 +1,9 @@
 import React from 'react';
-import './CheckMateDetails.css'
+import '../projectPagesStyles.css'
 
 const CheckMateDetails = () => {
     return (
-        <div className="check-mate">
+        <div className="project-detail">
             <h3>Project Goal:</h3>
             <p>
                 Develop a fully functional to-do list web application where users can organize their tasks .

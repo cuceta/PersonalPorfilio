@@ -1,9 +1,9 @@
 import React from 'react';
-import './FamilyThread.css'
+import '../projectPagesStyles.css'
 
 const FamilyThread = () => {
     return (
-        <div className="family-thread">
+        <div className="project-detail">
             <h3>Project Goal:</h3>
             <p>
                 Develop a fully functional web application with the capability to allow users to create, save
@@ -15,6 +15,8 @@ const FamilyThread = () => {
                     <li>Front-End Development</li>
                     <li>UX/UI Design</li>
                     <li>Communication with stakeholders and potential clients</li>
+                    <li>Requirements development</li>
+                    <li>UML diagram development and maintenance</li>
                 </ul>
             </p>
         </div>

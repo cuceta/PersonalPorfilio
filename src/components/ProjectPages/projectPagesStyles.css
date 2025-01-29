@@ -1,10 +1,10 @@
-.family-thread {
+.project-detail {
     justify-items: left;
+    justify-content: start;
     align-items: start;
 }
 
-.family-thread ul {
+.project-detail ul {
     justify-items: left;
-
     margin-left: 15px;
 }
