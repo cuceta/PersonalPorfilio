@@ -12,7 +12,7 @@
     z-index: 100;
     flex-direction: row;
     flex-wrap: wrap;
-    background: rgb(229, 191, 163);
+    background: rgba(243, 177, 195, 80%);
 }
 
 .nav {
