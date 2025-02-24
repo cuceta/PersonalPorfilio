@@ -14,8 +14,11 @@ const App = () => {
             <Projects/>
             <Experience/>
             <ContactMe/>
-        </div>
+            <script>
+                let lastScrollTop = 0;
 
+            </script>
+        </div>
     )
 }
 

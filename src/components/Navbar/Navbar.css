@@ -37,7 +37,8 @@
 
 a:hover,
 a:focus{
-    color: #D28C93;
+    /*color: #D28C93;*/
+    text-decoration: white wavy underline;
 }
 
 html{
@@ -46,12 +47,16 @@ html{
 
 .navWrapper {
     display: flex;
+    z-index: 10;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.09);
 }
 
 .logo img {
-    width: 60%;
+    width: 75%;
     height: auto;
     display: flex;
     justify-content: left;
