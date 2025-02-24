@@ -23,7 +23,6 @@ const AboutMe = () => {
                                 strings: [
                                     "I'm a Front-end Developer",
                                     "I'm a Graphic Designer",
-                                    "I'm a Back-end Developer",
                                     "I'm a Web Developer",
                                     "I'm a UX/UI Designer"
                                 ],
