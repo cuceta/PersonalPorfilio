@@ -1,5 +1,6 @@
 import 'react';
 import './Navbar.css'
+import logo from "/src/assets/logo.png";
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
             <div className='navWrapper'>
                 <div className="logo">
                     <a href="#about">
-                        <img alt="Crislenny Uceta's Logo" src="/src/assets/logo.png"/>
+                        <img alt="Crislenny Uceta's Logo" src={logo}/>
                     </a>
                 </div>
                 <div className='navbar'>
