@@ -1,26 +1,38 @@
-import 'react';
-import './Navbar.css'
+import React, { useState } from 'react';
+import './Navbar.css';
 import logo from "/src/assets/logo.png";
-import {Link} from 'react-scroll'
 
 const Navbar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
-        // <header id="navBar">
-            <div className='navWrapper'>
-                <div className="logo">
-                    <a href="#about">
-                        <img alt="Crislenny Uceta's Logo" src={logo}/>
-                    </a>
-                </div>
-                <div className='navbar'>
-                    <ul className='nav'>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#contact">Contact Me</a></li>
-                    </ul>
-                </div>
+        <div className='navWrapper'>
+            <div className="logo">
+                <a href="#about">
+                    <img alt="Crislenny Uceta's Logo" src={logo} />
+                </a>
             </div>
-        // </header>
+
+            {/* Hamburger Menu Icon */}
+            <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            {/* Navigation Links */}
+            <div className={`navbar ${isMenuOpen ? 'open' : ''}`}>
+                <ul className='nav'>
+                    <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+                    <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
+                    <li><a href="#contact" onClick={toggleMenu}>Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
     );
 };
 

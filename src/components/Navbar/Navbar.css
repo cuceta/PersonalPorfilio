@@ -1,24 +1,24 @@
-.navbar{
+/* Base Styles */
+.navbar {
     display: flex;
     align-items: center;
-    justify-content: end;
-    padding-right: 100px;
+    justify-content: flex-end;
+    padding-right: 50px;
     font-family: "Italiana", serif;
     font-weight: 400;
     font-style: normal;
     width: 100%;
     height: auto;
-    margin-left: 100px;
     z-index: 100;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .nav {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     list-style: none;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar a {
@@ -31,17 +31,17 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-.navbar ul{
+
+.navbar ul {
     justify-self: end;
 }
 
 a:hover,
-a:focus{
-    /*color: #D28C93;*/
+a:focus {
     text-decoration: white wavy underline;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -53,6 +53,7 @@ html{
     position: sticky;
     top: 0px;
     background-color: rgba(0, 0, 0, 0.09);
+    padding: 10px 20px;
 }
 
 .logo img {
@@ -62,4 +63,82 @@ html{
     justify-content: left;
     margin-left: 20px;
     margin-bottom: 0;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.hamburger.open span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.09);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar.open {
+        transform: translateX(0);
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .navbar a {
+        margin: 10px;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navWrapper {
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 50%;
+        margin-left: 10px;
+    }
 }

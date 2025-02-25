@@ -9,9 +9,10 @@ body {
 
 .projects {
     /*height: 110vh;*/
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: 0 auto;
     padding: 100px;
+
 }
 
 .projects h1 {
@@ -21,6 +22,9 @@ body {
 }
 
 .project-grid {
+    max-width: 1250px;
+    /*background-color: #157485;*/
+    justify-self: center;
     display: grid;
     align-content: space-between;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -33,7 +37,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 20px;
+    /*margin: 20px;*/
     text-align: center;
     min-width: 350px ;
     max-width: 350px;

@@ -16,8 +16,12 @@ const PerformanceMeasurements = () => {
             </p>
 
             <h3>Learning points: </h3>
-            <li>Implementation of own data structure and blocking scheme.</li>
-            <li>Use and implementation of benchmarks to measure performance based on through put.</li>
+            <p>
+                <ul>
+                    <li>Implementation of own data structure and blocking scheme.</li>
+                    <li>Use and implementation of benchmarks to measure performance based on through put.</li>
+                </ul>
+            </p>
 
             <h3>Source Code:</h3>
             <a href='https://github.com/cuceta/Ticketing-System-Parallel-Perfomance'>Github repository</a>
