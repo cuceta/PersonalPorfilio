@@ -67,7 +67,7 @@ body {
     border-radius: 10px;
     margin-bottom: 15px;
     height: 200px;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 .project-card h2 {
