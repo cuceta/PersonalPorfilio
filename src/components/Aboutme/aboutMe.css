@@ -2,17 +2,13 @@
     display: flex;
     /*justify-content: center;*/
     /*align-items: center;*/
-    height: 90vh;
+    /*height: 90vh;*/
     padding: 0;
     margin: 0;
     font-family: 'Arial', sans-serif;
-}
-
-
-body{
     height: 100vh;
-    background-image: radial-gradient(circle, #FCCACF, #D28C93);
-    /*background-color: #dca3a9;*/
+    /*background-image: radial-gradient(circle, #FCCACF, #D28C93);*/
+    background-color: #D28C93;
 
 }
 
