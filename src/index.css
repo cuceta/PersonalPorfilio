@@ -44,10 +44,16 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    /*color: #000000;*/
+    color: rgba(249, 208, 172, 0.7);
     font-size: 20px;
     margin: 15px;
     text-transform: uppercase;
+}
+
+a:hover,
+a:focus {
+    text-decoration: rgba(249, 208, 172, 0.7) wavy underline;
 }
 
 .menu-toggle {
