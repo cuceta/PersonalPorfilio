@@ -1,36 +1,51 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/logo.png" />
-    <meta title="Crislenny Uceta Personal Portfolio" name="Crislenny Uceta Personal Portfolio" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio of Crislenny Uceta.">
-    <meta name="author" content="Crislenny Uceta">
-    <title>Crislenny Uceta - Personal Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Jacques+Francois&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx">
-      // import navbar from "./src/components/Navbar/Navbar.jsx";
-      //
-      // let lastScrollTop = 0;
-      // navbar = document.getElementById("navBar");
-      // window.addEventListener("scroll", function (){
-      //   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      //   if(scrollTop > lastScrollTop){
-      //     navbar.classList.add('active');
-      //   } else {
-      //     navbar.classList.remove('active');
-      //   }
-      //   lastScrollTop = scrollTop;
-      // })
-    </script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="title" content="Crislenny Uceta - Portfolio">
+  <meta name="description" content="Explore Crislenny Uceta's personal portfolio, featuring projects, skills, and achievements in web development and design.">
+  <meta name="keywords" content="Crislenny Uceta, portfolio, web development, projects">
+  <meta name="author" content="Crislenny Uceta">
 
-  </body>
+  <title>Crislenny Uceta - Portfolio</title>
+  <link rel="icon" type="image/png" href="./src/assets/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Jacques+Francois&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Responsive Navbar -->
+<header>
+  <nav id="navbar">
+<!--    <div class="logo">Crislenny Uceta</div>-->
+    <img src="src/assets/logo.png" alt="Crislenny Uceta's Logo">
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+      <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
+      <li><a href="#contact" onClick={toggleMenu}>Contact Me</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div id="root"></div>
+</main>
+
+<script type="module" src="/src/main.jsx"></script>
+<script>
+  // Mobile Navbar Toggle
+  document.getElementById("menuToggle").addEventListener("click", function () {
+    document.getElementById("navLinks").classList.toggle("active");
+  });
+</script>
+
+</body>
 </html>

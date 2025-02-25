@@ -150,13 +150,17 @@ body{
 
 @media screen and (max-width: 1000px){
     .timeline{
-        margin: 50px auto;
+        margin: 100px auto;
+        justify-content: center;
+        /*margin: 100px 10%;*/
+        position: relative;
     }
     .timeline::after{
         left: 31px;
     }
     .container{
-        width: 600px;
+        width: 30%;
+
         padding-left: 100px;
         padding-right: 25px;
     }
