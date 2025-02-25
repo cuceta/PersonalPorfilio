@@ -60,13 +60,13 @@ a:focus {
     display: none;
     background: none;
     border: none;
-    color: white;
+    color: rgba(249, 208, 172, 0.7);
     font-size: 2rem;
     cursor: pointer;
 }
 
 img {
-    width: 5%;
+    width: 100%;
 }
 
 /* Responsive Navbar */

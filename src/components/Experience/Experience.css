@@ -157,9 +157,10 @@
     .timeline::after{
         left: 31px;
     }
-    .container{
-        width: inherit;
 
+    .container{
+
+        width: 80%;
         padding-left: 100px;
         padding-right: 25px;
     }

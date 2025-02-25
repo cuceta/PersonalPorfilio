@@ -59,7 +59,9 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-                <img src={downArrow} alt="Arrow pointing down"/>
+                <div className="down-arrow">
+                    <img src={downArrow} alt="Arrow pointing down"/>
+                </div>
             </div>
         </section>
     );
