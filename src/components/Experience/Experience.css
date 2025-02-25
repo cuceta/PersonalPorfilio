@@ -147,7 +147,7 @@
     left: -15px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     .timeline{
         margin: 100px auto;
         justify-content: center;
@@ -158,7 +158,7 @@
         left: 31px;
     }
     .container{
-        width: 30%;
+        width: inherit;
 
         padding-left: 100px;
         padding-right: 25px;
