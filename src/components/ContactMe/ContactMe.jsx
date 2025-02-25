@@ -22,8 +22,6 @@ const ContactMe = () => {
                             </label>
                             <input type="text" name="Email" id='Email' placeholder="Email" required/>
                         </div>
-
-                        <input className="hover-buttom" type='submit' value='submit'/>
                     </div>
 
 
@@ -33,6 +31,9 @@ const ContactMe = () => {
                         </label>
                         <textarea name="Message" id='Message' placeholder="Message" required></textarea>
                     </div>
+                </div>
+                <div className="sub-buttom">
+                    <input className="hover-buttom" type='submit' value='submit'/>
                 </div>
             </form>
         </section>

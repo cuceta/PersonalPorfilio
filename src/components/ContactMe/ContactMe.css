@@ -7,19 +7,47 @@ h1 {
     text-transform: uppercase;
 }
 
-.contact{
-    /*padding: 100px;*/
+.contact {
     background-color: #efb1b7;
     margin-top: -30px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
+.sub-buttom {
+    /*background-color: blue;*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
-form {
+/* Two-column layout for screens wider than 1000px */
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left column: Name, Email, Submit Button */
+.name-email-content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
+    align-items: center;
 }
 
+/* Right column: Message */
+.message-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input fields */
 textarea, input:not([type='submit']) {
     height: 50px;
     padding-left: 16px;
@@ -36,49 +64,59 @@ input, textarea {
     border-radius: 20px;
     border: #888 1px solid;
     box-sizing: border-box;
-    justify-self: center;
 }
 
-::placeholder {
-    color: #888;
-}
-
-input[type='submit']{
-    padding: 5px 10px;
-    margin-top: 15px;
+/* Submit button */
+input[type='submit'] {
+    padding: 10px 20px;
+    margin-top: 10px;
     border-radius: 50px;
     background: rgba(249, 208, 172, 0.7);
-    border-width: thin;
-    border: white;
     font-family: "Italiana", serif;
     font-size: 18px;
     color: white;
     cursor: pointer;
     transition: 0.5s;
-    justify-self: center;
-    align-self: center;
-
-
+    width: 150px;
 }
 
-input[type='submit']:hover {
-    transform: scale(1.2);
-}
-
-.hover-buttom{
+/* Center Submit Button */
+.hover-buttom {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-self: center;
+    background-color: green;
+
 }
 
-.content {
-    margin-bottom: 30px;
+/* Hover effect */
+input[type='submit']:hover {
+    transform: scale(1.1);
 }
 
-.message-content{
-    margin-bottom: 100px;
-}
+/* --- Responsive Design for Screens Below 1000px --- */
+@media screen and (max-width: 1000px) {
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
 
-.name-email-content {
-    margin-top: -100px;
+    .name-email-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        order: 1; /* Keep Name & Email together */
+    }
+
+    .message-content {
+        order: 2; /* Message moves below Name & Email */
+        align-items: center;
+    }
+
+    .hover-buttom {
+        order: 3; /* Submit button moves to the bottom */
+    }
 }
