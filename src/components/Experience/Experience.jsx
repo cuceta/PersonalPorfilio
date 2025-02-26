@@ -10,7 +10,7 @@ const Experience = () => {
             <h1>Experience</h1>
             <div className="timeline">
             {/*<div className="experience-content">*/}
-                <div className="container left-container">
+                <div className="container right-container">
                     <img src={SUNYOswegoLogo} alt="SUNY Oswego Logo"/>
                     <div className="text-box">
                         <h2>
@@ -36,7 +36,7 @@ const Experience = () => {
                                 <li>Continuing Elementary Spanish</li>
                             </ul>
                         </p>
-                        <span className="left-container-arrow"></span>
+                        <span className="right-container-arrow"></span>
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@ const Experience = () => {
                     </div>
                 </div>
 
-                <div className="container left-container">
+                <div className="container right-container">
                     <img src={SUNYOswegoLogo} alt="SUNY Oswego Logo"/>
                     <div className="text-box">
                         <h2>
@@ -72,7 +72,7 @@ const Experience = () => {
                         <p> Revising and grading students’ work for the introductive Computer Science course and holding
                             office hours provide explanation and guidance where needed.
                         </p>
-                        <span className="left-container-arrow"></span>
+                        <span className="right-container-arrow"></span>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@ const Experience = () => {
                     </div>
                 </div>
 
-                <div className="container left-container">
+                <div className="container right-container">
                     <img src={VerizonAccentureLogo} alt="Accenture Logo"/>
                     <div className="text-box">
                         <h2>
@@ -112,7 +112,7 @@ const Experience = () => {
                                 </li>
                             </ul>
                         </p>
-                        <span className="left-container-arrow"></span>
+                        <span className="right-container-arrow"></span>
                     </div>
                 </div>
             {/*</div>*/}
