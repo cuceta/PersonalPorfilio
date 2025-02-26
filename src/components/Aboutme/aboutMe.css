@@ -100,6 +100,8 @@
     color: #ffffff;
     line-height: 1.5;
     text-align: center;
+    animation: bounce 1.5s infinite ease-in-out;
+
 }
 .social {
     margin-top: 20px;
