@@ -7,7 +7,7 @@ const ContactMe = () => {
         <section className='contact' id='contact'>
             <h1>Contact Me!</h1>
             <form action="https://formspree.io/f/xdkaedng" method='post'>
-                <div className='content-wrapper'>
+                <div className='contact-content-wrapper'>
                     <div className='name-email-content'>
                         <div className='content'>
                             <label htmlFor="Name" hidden>
@@ -33,7 +33,7 @@ const ContactMe = () => {
                     </div>
                 </div>
                 <div className="sub-buttom">
-                    <input className="hover-buttom" type='submit' value='submit'/>
+                <input className="hover-buttom" type='submit' value='submit'/>
                 </div>
             </form>
         </section>

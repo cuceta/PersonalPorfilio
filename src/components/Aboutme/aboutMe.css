@@ -5,12 +5,10 @@
     padding: 0;
     margin: 0;
     font-family: 'Arial', sans-serif;
-    /*height: 100vh;*/
     background-color: #c56b74;
 }
 
 .main-div {
-    /*display: flex;*/
     justify-content: center;
     align-items: center;
 }
@@ -19,14 +17,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
     padding-bottom: 50px;
-    /*background-color: green;*/
+    margin-top: -40px;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
 }
 
-.down-arrow img{
+.down-arrow img {
     height: 150px;
     width: auto;
+    animation: bounce 1.5s infinite ease-in-out;
 }
 .content-wrapper {
     display: flex;
@@ -44,24 +50,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.oval-background {
-    position: absolute;
-    width: 380px; /* Make oval size match container */
-    height: 530px;
-    background-image: radial-gradient(circle, rgba(248, 232, 218, 0.16), rgba(249, 208, 172, 0.37));
-    border-radius: 50%;
-    z-index: -1;
+    z-index: 1;
+    object-fit: cover;
 }
 
 .profile-image {
     width: auto;
-    height: 800px;
+    height: 100%;
     border-radius: 50%;
     z-index: 1;
-    margin-top: 170px;
-    margin-left: 50px;
+
 }
 
 .text-container {
@@ -82,7 +80,7 @@
     font-size: 24pt;
     font-family: "American Typewriter";
     font-weight: normal;
-    color: rgba(249, 208, 172, 0.7);
+    color: rgb(249, 208, 172);
     margin-bottom: 20px;
 }
 
@@ -94,7 +92,15 @@
     color: #ffffff;
     line-height: 1.5;
 }
-
+.learn-more {
+    font-size: 14pt;
+    font-family: "Jacques Francois", serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: center;
+}
 .social {
     margin-top: 20px;
     display: flex;
@@ -127,6 +133,15 @@
 }
 
 .resume-button:hover{
-    transform: scale(1.2);
-    color: #D28C93;
+    transform: scale(1.1);
+    background-color: #D28C93;
 }
+
+@media screen and (max-width: 900px) {
+    .text-container{
+        /*background-color: green;*/
+        margin: 0 50px;
+        /*margin-left: 30px;*/
+    }
+}
+

@@ -24,12 +24,13 @@ h1 {
 }
 
 /* Two-column layout for screens wider than 1000px */
-.content-wrapper {
+.contact-content-wrapper {
     display: flex;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
     align-items: center;
+    /*background-color: green;*/
 }
 
 /* Left column: Name, Email, Submit Button */
@@ -71,7 +72,8 @@ input[type='submit'] {
     padding: 10px 20px;
     margin-top: 10px;
     border-radius: 50px;
-    background: rgba(249, 208, 172, 0.7);
+    border: 0;
+    background: rgb(249, 208, 172);
     font-family: "Italiana", serif;
     font-size: 18px;
     color: white;
@@ -85,13 +87,14 @@ input[type='submit'] {
     display: flex;
     justify-content: center;
     align-self: center;
-    background-color: green;
 
 }
 
 /* Hover effect */
 input[type='submit']:hover {
     transform: scale(1.1);
+    background-color: #D28C93;
+
 }
 
 /* --- Responsive Design for Screens Below 1000px --- */

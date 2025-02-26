@@ -9,7 +9,7 @@ const Experience = () => {
         <section className='experience' id='experience'>
             <h1>Experience</h1>
             <div className="timeline">
-
+            {/*<div className="experience-content">*/}
                 <div className="container left-container">
                     <img src={SUNYOswegoLogo} alt="SUNY Oswego Logo"/>
                     <div className="text-box">
@@ -115,6 +115,7 @@ const Experience = () => {
                         <span className="left-container-arrow"></span>
                     </div>
                 </div>
+            {/*</div>*/}
             </div>
         </section>
     );

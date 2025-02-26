@@ -1,6 +1,6 @@
 import 'react';
 import './aboutMe.css';
-import profile from '../../assets/selfGraphic.svg';
+import profile from '../../assets/selfGraphic.png';
 import Typewriter from 'typewriter-effect';
 import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
@@ -14,7 +14,7 @@ const AboutMe = () => {
             <div className="main-div">
                 <div className="content-wrapper">
                     <div className="profile-container">
-                        <div className="oval-background"></div>
+                        {/*<div className="oval-background"></div>*/}
                         <img src={profile} alt="Illustration of Crislenny Uceta" className="profile-image"/>
                     </div>
                     <div className="text-container">
@@ -58,6 +58,9 @@ const AboutMe = () => {
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className="learn-more">
+                    <p>Learn More</p>
                 </div>
                 <div className="down-arrow">
                     <img src={downArrow} alt="Arrow pointing down"/>
