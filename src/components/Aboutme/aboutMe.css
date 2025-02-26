@@ -143,5 +143,9 @@
         margin: 0 50px;
         /*margin-left: 30px;*/
     }
+
+    .learn-more,.down-arrow {
+        margin-top: -50px;
+    }
 }
 
