@@ -1,19 +1,90 @@
 .education{
     font-family: "Italiana", serif;
-    /*padding: 0px 30px;*/
-    /*padding-top: 30px;*/
-    top: -30px;
+    padding: 30px 30px;
     background-color: #f3919c;
-    /*height: 1449px;*/
     height: 100%;
-    transform: translateY(-30px);
-    /*width: 50%;*/
+    color: white;
 }
 
 .education h1 {
     text-align: center;
-    /*margin-bottom: -60px;*/
-    /*paddingn-top: -30px;*/
+    margin-top: 30px;
+    margin-bottom: 70px;
     color: white;
-    /*background-color: green;*/
+}
+
+
+/*DONT TOUCH ANYTHING ABOVE THIS*/
+
+
+
+
+
+
+
+.education-box {
+    border: 2px solid rgb(249, 208, 172);
+    padding: 40px 20px 20px;
+    margin-top: 70px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+    /*width: 150%;*/
+}
+
+.education-box h2 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: #f3919c;
+    padding: 0px 20px;
+    /*padding-bottom: -10px;*/
+    border-radius: 10px;
+    color: white;
+    /*color: rgb(249, 208, 172);*/
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.time {
+
+    margin-top: -20px;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Ensures items are centered */
+}
+
+/* Default: One column layout (each entry takes full width) */
+.education-entry {
+    width: 100%;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+/* Two-column layout when the screen is less than 1000px */
+@media screen and (max-width: 1450px) {
+    .education-entry {
+        width: 45%; /* Each entry takes up 45% of the width to fit two in a row */
+    }
+}
+
+/* Single-column layout again when the screen is less than 900px */
+@media screen and (max-width: 1050px) {
+    .education-entry {
+        width: 100%;
+    }
+}
+
+/* Ensure boxes remain centered */
+.education-box {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
 }

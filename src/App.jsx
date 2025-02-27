@@ -21,7 +21,6 @@ const App = () => {
                 <div className="column">
                     <Education/>
                 </div>
-
             </div>
             <ContactMe/>
             <Footer/>

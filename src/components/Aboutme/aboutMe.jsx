@@ -14,7 +14,6 @@ const AboutMe = () => {
             <div className="main-div">
                 <div className="content-wrapper">
                     <div className="profile-container">
-                        {/*<div className="oval-background"></div>*/}
                         <img src={profile} alt="Illustration of Crislenny Uceta" className="profile-image"/>
                     </div>
                     <div className="text-container">
@@ -40,7 +39,7 @@ const AboutMe = () => {
                             aspiring web developer who strives to learn and get better every day.
                         </p>
                         <div className="social">
-                            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/crislenny-uceta/" target="_blank" >
                                 <img src={linkedin} alt="LinkedIn logo" className="social-icon"/>
                             </a>
                             <a href="mailto:cuceta@oswego.edu">
